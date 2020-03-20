@@ -1,17 +1,10 @@
 import java.io.*;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
 import java.util.Optional;
-
 import com.google.gson.JsonArray;
 import config.ConfigProvider;
 import exceptions.InvalidEmailFormatException;
 import exceptions.InvalidLatitudeException;
 import exceptions.InvalidLongitudeException;
-import exceptions.NonExistingUserPostInsertionException;
-import model.posts.Post;
-import model.users.User;
 import org.yaml.snakeyaml.Yaml;
 import request.DataProvider;
 import utils.FileSearch;
@@ -59,9 +52,6 @@ public class Main {
             usersUrlString = "https://jsonplaceholder.typicode.com/users";
         }
 
-
-
-
         JsonArray postsAsJson = DataProvider.getData(postsUrlString);
         JsonArray usersAsJson = DataProvider.getData(usersUrlString);
 
@@ -71,7 +61,7 @@ public class Main {
 
         SolutionProvider solutionProvider = getSolution();
 
-        System.out.println("User activity list:");
+        System.out.println("Users activity list:");
         System.out.println(solutionProvider.getUsersActivity());
         System.out.println();
 

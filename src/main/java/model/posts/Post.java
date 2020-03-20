@@ -1,9 +1,11 @@
 package model.posts;
 
 import com.google.gson.JsonObject;
+
 import exceptions.InvalidEmailFormatException;
 import exceptions.InvalidLatitudeException;
 import exceptions.InvalidLongitudeException;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

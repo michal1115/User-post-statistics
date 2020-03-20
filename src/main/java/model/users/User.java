@@ -2,15 +2,19 @@ package model.users;
 
 import com.google.gson.JsonObject;
 import com.sun.tools.javac.util.List;
+
 import exceptions.InvalidEmailFormatException;
 import exceptions.InvalidLatitudeException;
 import exceptions.InvalidLongitudeException;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
 import lombok.ToString;
+
 import model.posts.Post;
 import model.users.Address;
+
 import utils.DistanceCounter;
 
 import java.util.HashSet;

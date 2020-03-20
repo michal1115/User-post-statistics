@@ -1,11 +1,15 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+
 import exceptions.NonExistingUserPostInsertionException;
 import exceptions.UserAlreadyInsertedException;
+
 import lombok.Getter;
 import lombok.SneakyThrows;
+
 import model.posts.Post;
 import model.users.User;
+
 import utils.DistanceCounter;
 
 import java.util.*;

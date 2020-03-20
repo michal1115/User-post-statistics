@@ -2,8 +2,10 @@ package model.users;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+
 import exceptions.InvalidLatitudeException;
 import exceptions.InvalidLongitudeException;
+
 import lombok.*;
 
 @Getter
