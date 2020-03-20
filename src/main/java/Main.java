@@ -71,12 +71,21 @@ public class Main {
 
         SolutionProvider solutionProvider = getSolution();
 
+        System.out.println("User activity list:");
         System.out.println(solutionProvider.getUsersActivity());
+        System.out.println();
+
+        System.out.println("Are titles unique?");
         System.out.println(solutionProvider.getNonUniquePostTitles());
+        System.out.println(solutionProvider.arePostsUnique() ? "Titles are unique" : "Titles are not unique" );
+        System.out.println();
+
+        System.out.println("Nearest users:");
         solutionProvider.getNearestUsers()
                 .entrySet()
                 .forEach(entry -> System.out.println(entry.getKey().getUsername() +  " " + entry.getValue().getUsername() ));
 
+        System.out.println();
         solutionProvider.getNearestUsers()
                 .entrySet()
                 .forEach(entry -> System.out.println(entry.getKey().getId() +  " " + entry.getValue().getId() ));

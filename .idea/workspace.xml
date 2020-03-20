@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e002a69-b712-41ec-ad46-ccee5da54c98" name="Default Changelist" comment="" />
+    <list default="true" id="4e002a69-b712-41ec-ad46-ccee5da54c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Test1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DistanceCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DistanceCounter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +42,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZIpL3GMshIFWaJ1gno5PAk5eY5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,7 +64,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Gradle.Test1">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UserPostStatistics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -77,26 +98,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;Test1.checkPostLoading&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test1.checkUser1ClosestUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;Test1.checkUser1ClosestUser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.Test1" />
         <item itemvalue="Gradle.Test1.checkUser1PostLinkage" />
         <item itemvalue="Gradle.Test1.checkPostLoading" />
         <item itemvalue="Gradle.Test1.checkUserLoading" />
-        <item itemvalue="Gradle.Test1.checkUser1ClosestUser" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584536402748</updated>
       <workItem from="1584536407360" duration="8742000" />
-      <workItem from="1584546887639" duration="56017000" />
+      <workItem from="1584546887639" duration="58434000" />
     </task>
     <servers />
   </component>
@@ -205,25 +206,25 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1968" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584638740283" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1584654560306">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1584663550889">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584654560306" />
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584663550889" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584541248399" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1584654560306">
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1584663550889">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584654560306" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584663550889" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1584654560306">
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1584663550889">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584654560306" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584663550889" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1584654560306">
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1584663550889">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584654560306" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584663550889" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
     <state x="1827" y="162" key="SettingsEditor" timestamp="1584549213888">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -233,6 +234,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2022" y="344" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584546898056" />
+    <state x="1708" y="132" key="new project wizard" timestamp="1584658657849">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1708" y="132" key="new project wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584658657849" />
     <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584545263187">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

@@ -28,16 +28,5 @@ public class DistanceCounter {
                 user2.getAddress().getGeo().getLng()
                 );
     }
-
-    public static void main(String[] args){
-        System.out.println(getDistance(50.05, 5.70, 58.63, 3.666)); //968.9 km
-        System.out.println(getDistance(0, 1 , 0, -1));//222.4 km
-        System.out.println(getDistance(1, 0, -1, 0));//222.4 km
-        System.out.println(getDistance(45, 0, 30, 0));//1668 km
-        System.out.println(getDistance(-1, 0, 1, 0));//222.4 km
-        System.out.println(getDistance(-10, 0, 10, 0));//2224 km
-        System.out.println(getDistance(-60, 0, 60, 0));//13340 km
-        System.out.println(getDistance(-90, 0, 90, 0));//20020 km
-    }
 }
 
