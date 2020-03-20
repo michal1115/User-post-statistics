@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserDistanceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-20T00:53:15" hostname="michal-Komputer" time="0.077">
+<testsuite name="UserDistanceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-20T01:02:45" hostname="michal-Komputer" time="0.064">
   <properties/>
-  <testcase name="checkUser1ClosestUser()" classname="UserDistanceTests" time="0.025"/>
-  <testcase name="checkUser2ClosestUser()" classname="UserDistanceTests" time="0.004"/>
-  <testcase name="checkUser3ClosestUser()" classname="UserDistanceTests" time="0.009"/>
-  <testcase name="checkUser4ClosestUser()" classname="UserDistanceTests" time="0.003"/>
-  <testcase name="checkUser5ClosestUser()" classname="UserDistanceTests" time="0.004"/>
-  <testcase name="checkUser6ClosestUser()" classname="UserDistanceTests" time="0.003"/>
-  <testcase name="checkUser7ClosestUser()" classname="UserDistanceTests" time="0.003"/>
-  <testcase name="checkUser8ClosestUser()" classname="UserDistanceTests" time="0.003"/>
-  <testcase name="checkUser9ClosestUser()" classname="UserDistanceTests" time="0.002"/>
-  <testcase name="checkUser10ClosestUser()" classname="UserDistanceTests" time="0.003"/>
+  <testcase name="user10ClosestUserTest()" classname="UserDistanceTests" time="0.022"/>
+  <testcase name="user6ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user5ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user4ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user3ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user2ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user1ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user9ClosestUserTest()" classname="UserDistanceTests" time="0.005"/>
+  <testcase name="user8ClosestUserTest()" classname="UserDistanceTests" time="0.002"/>
+  <testcase name="user7ClosestUserTest()" classname="UserDistanceTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -22,7 +22,7 @@ public class DataExtractionTests {
     }
 
     @Test
-    public void checkUserLoading(){
+    public void UserExtractionTest(){
         User user = solutionProvider.getUsers().get(1); //returns user with id 1
         assertEquals(1, user.getId() );
         assertEquals("Leanne Graham", user.getName() );
@@ -42,7 +42,7 @@ public class DataExtractionTests {
     }
 
     @Test
-    public void checkPostLoading(){
+    public void PostExtractionTest(){
         Post post = solutionProvider.getUsers().get(1).getPosts()
                 .stream()
                 .filter(p -> p.getId() == 1)
@@ -58,7 +58,7 @@ public class DataExtractionTests {
     }
 
     @Test
-    public void checkUserPostLinkage(){
+    public void UserPostLinkageTest(){
         solutionProvider.getUsers().values()
                 .forEach(user -> {
                     user.getPosts()

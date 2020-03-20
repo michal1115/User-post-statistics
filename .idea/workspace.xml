@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e002a69-b712-41ec-ad46-ccee5da54c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataExtractionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UniqueTitlesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserActivityTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserDistanceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,31 +12,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SolutionProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SolutionProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/posts/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/posts/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/users/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/users/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/users/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/users/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/users/Geo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/users/Geo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/request/DataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/request/DataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/DataExtractionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/DataExtractionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/UniqueTitlesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/UniqueTitlesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/UserActivityTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/UserActivityTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/UserDistanceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/UserDistanceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/UserDistanceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/UserDistanceTests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Test1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-UserDistanceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-UserDistanceTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolutionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SolutionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/posts/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/posts/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/users/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/users/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/users/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/users/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/users/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/users/Geo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/request/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/request/DataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataExtractionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataExtractionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UniqueTitlesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UniqueTitlesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserActivityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserActivityTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserDistanceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserDistanceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +79,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.UserDistanceTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UserPostStatistics.main" />
@@ -184,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.UserDistanceTests" />
         <item itemvalue="Gradle.UserActivityTests" />
-        <item itemvalue="Gradle.UniqueTitlesTests" />
         <item itemvalue="Gradle.DataExtractionTests" />
+        <item itemvalue="Gradle.UniqueTitlesTests" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584536402748</updated>
       <workItem from="1584536407360" duration="8742000" />
-      <workItem from="1584546887639" duration="60306000" />
+      <workItem from="1584546887639" duration="61020000" />
     </task>
     <servers />
   </component>
@@ -236,25 +221,25 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1968" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584638740283" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1584665599350">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1584666159898">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584665599350" />
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584666159898" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584541248399" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1584665599350">
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1584666159898">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584665599350" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584666159898" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1584665599350">
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1584666159898">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584665599350" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584666159898" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1584665599350">
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1584666159898">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584665599350" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584666159898" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584541248398" />
     <state x="1827" y="162" key="SettingsEditor" timestamp="1584549213888">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -272,16 +257,5 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584545263187" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/UserDistanceTests.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

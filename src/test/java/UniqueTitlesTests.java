@@ -24,11 +24,11 @@ public class UniqueTitlesTests {
     }
 
     @Test
-    public void nonUniqueTitlesCountCheck(){
+    public void nonUniqueTitlesCountTest(){
         assertEquals(nonUniqueTitlesCount, nonUniqueTitles.size());
     }
     @Test
-    public void nonUniqueTitlesCheck(){
+    public void nonUniqueTitlesTest(){
         assertEquals(nonUniqueTitlesCount, nonUniqueTitles.size());
     }
 }

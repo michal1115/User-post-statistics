@@ -28,29 +28,30 @@ public class UserActivityTests {
 
         usersActivity = solutionProvider.getUsersActivity();
     }
+
     @Test
-    public void userActivityCheckFormat() throws IOException {
+    public void userActivityFormatTest() throws IOException {
         //check if all entries satisfy expected format
         for(String record: usersActivity){
             assertTrue(record.matches(ACTIVITY_STRING_REGEX));
         }
     }
     @Test
-    public void checkUser1Activity(){
+    public void user1ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(0)))
                 .forEach(record -> assertEquals(
                         userActivityCount.get(0), Integer.parseInt(record.split(" ")[2])));
     }
     @Test
-    public void checkUser2Activity(){
+    public void user2ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(1)))
                 .forEach(record -> assertEquals(
                         userActivityCount.get(1), Integer.parseInt(record.split(" ")[2])));
     }
     @Test
-    public void checkUser3Activity(){
+    public void user3ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(2)))
                 .forEach(record -> assertEquals(
@@ -58,7 +59,7 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser4Activity(){
+    public void user4ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(3)))
                 .forEach(record -> assertEquals(
@@ -66,7 +67,7 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser5Activity(){
+    public void user5ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(4)))
                 .forEach(record -> assertEquals(
@@ -74,7 +75,7 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser6Activity(){
+    public void user6ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(5)))
                 .forEach(record -> assertEquals(
@@ -82,7 +83,7 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser7Activity(){
+    public void user7ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(6)))
                 .forEach(record -> assertEquals(
@@ -90,7 +91,7 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser8Activity(){
+    public void user8ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(7)))
                 .forEach(record -> assertEquals(
@@ -98,14 +99,14 @@ public class UserActivityTests {
     }
 
     @Test
-    public void checkUser9Activity(){
+    public void user9ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(8)))
                 .forEach(record -> assertEquals(
                         userActivityCount.get(8), Integer.parseInt(record.split(" ")[2])));
     }
     @Test
-    public void checkUser10Activity(){
+    public void user10ActivityTest(){
         usersActivity.stream()
                 .filter(record -> record.split(" ")[0].equals(userNames.get(9)))
                 .forEach(record -> assertEquals(

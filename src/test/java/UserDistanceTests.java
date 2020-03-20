@@ -32,7 +32,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser1ClosestUser(){
+    public void user1ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 0)
                 .forEach(user -> {
@@ -41,7 +41,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser2ClosestUser(){
+    public void user2ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 1)
                 .forEach(user -> {
@@ -50,7 +50,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser3ClosestUser(){
+    public void user3ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 2)
                 .forEach(user -> {
@@ -59,7 +59,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser4ClosestUser(){
+    public void user4ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 3)
                 .forEach(user -> {
@@ -68,7 +68,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser5ClosestUser(){
+    public void user5ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 4)
                 .forEach(user -> {
@@ -77,7 +77,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser6ClosestUser(){
+    public void user6ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 5)
                 .forEach(user -> {
@@ -86,7 +86,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser7ClosestUser(){
+    public void user7ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 6)
                 .forEach(user -> {
@@ -95,7 +95,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser8ClosestUser(){
+    public void user8ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 7)
                 .forEach(user -> {
@@ -104,7 +104,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser9ClosestUser(){
+    public void user9ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 8)
                 .forEach(user -> {
@@ -113,7 +113,7 @@ public class UserDistanceTests {
     }
 
     @Test
-    public void checkUser10ClosestUser(){
+    public void user10ClosestUserTest(){
         closestUsers.values().stream()
                 .filter(user -> user.getId() == 9)
                 .forEach(user -> {
